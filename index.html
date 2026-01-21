@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="突然やってくる地震。そんなとき、あなたはどう行動しますか？このシミュレーションゲームでは、災害時に必要なものを選びながら、防災の基本を楽しく学ぶことができます。正しい選択ができるほど、あなたの“防災力”がアップ！！さあ、あなたの防災力は…◯◯％？！">
+    <title>防災って意外とゲームになる</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Rampart+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a1691a85f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header class="header">
+            <div id="logo"><img src="img/logo.png"></div>
+
+            <button class="hamburger" aria-label="メニュー" aria-controls="nav-menu" aria-expanded="false">
+                <span class="hamburger__line"></span>
+                <span class="hamburger-grid__dot"></span>
+                <span class="hamburger-grid__dot"></span>
+                <span class="hamburger__line"></span>
+            </button>
+
+            <nav id="nav-menu" class="nav" aria-hidden="true">
+                <ul class="nav__list">
+                <li class="nav__item"><a href="#summary" class="nav__link">概要</a></li>
+                <li class="nav__item"><a href="#game" class="nav__link">ゲーム一覧</a></li>
+                <li class="nav__item"><a href="#inquiry" class="nav__link">レビュー</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">よくある質問（FAQ）</a></li>
+                <li class="nav__item"><a href="#catch" class="nav__link">ゲームスタート</a></li>
+                </ul>
+            </nav>
+
+            <div id="title">
+                <p><em>防災</em>って</p>
+                <p>意外と<em>ゲーム</em>になる</p>
+            </div>
+            <a href="https://scratch.mit.edu/projects/1211072886/"><img src="img/button1.jpg" alt="プレイする"></a>
+        </header>
+        <section class="main">
+            <div class="contents">
+                <div id="summary">
+                    <h1>
+                        <p><small>ゲームを通して、</small></p>
+                        <p>学べる・楽しい防災訓練！</p>
+                    </h1>
+                    <p id="summary_about">
+                        突然やってくる地震。そんなとき、あなたはどう行動しますか？このシミュレーションゲームでは、災害時に必要なものを選びながら、防災の基本を楽しく学ぶことができます。正しい選択ができるほど、あなたの“防災力”がアップ！！さあ、あなたの防災力は…◯◯％？！
+                    </p>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="double_line">
+                    <h2 id="game">ゲーム一覧</h2>
+                </div>
+                <div class="game_1">
+                    <div class="game_about">
+                        <img src="img/bag.jpg">
+                        <h3>詰め込め！防災バッグ！</h3>
+                        <p>水、食料、お気に入りのゲーム機...あなたはどれを優先する？避難所に持っていきたいものを決まったマス内に詰め込もう！適切なものを入れると点数UP！</p>
+                        <p><i><img src="img/sankaku.jpg">詳しくみる</i></p>
+                    </div>
+                </div>
+                <div id="group">
+                    <div class="game_2">
+                        <div class="game_about">
+                            <img src="img/kagu.jpg">
+                            <h3>あぶない家具</h3>
+                            <p>普段は安全？地震の時に危険な家具配置を知ろう！地震が来た時に被害が出そうな家具を選ぶクイズゲーム！</p>
+                            <p><i><img src="img/sankaku.jpg">詳しくみる</i></p>
+                        </div>
+                    </div>
+                    <div class="game_2">
+                        <div class="game_about">
+                            <img src="img/rakuseki.jpg">
+                            <h3>身体を守れ！</h3>
+                            <p>頭を守ろう！落ちてくるものを避ける反射神経ゲーム！机の下やヘルメット机の下やヘルメットなどを活用して自分を守ろう！</p>
+                            <p><i><img src="img/sankaku.jpg">詳しくみる</i></p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://scratch.mit.edu/projects/1211072886/"><img src="img/button2.jpg" alt="プレイする"></a>
+            </div>
+            <div class="contents">
+                <div class="double_line">
+                    <h2 id="inquiry">せかいの記録</h2>
+                </div>
+                <div id="label-container">
+                    <input type="checkbox" class="checkBtn" id="hoge1" checked="true">
+                    <label id="hoge1Label" for="hoge1">レビュー</label>
+                    <input type="checkbox" class="checkBtn" id="hoge2">
+                    <label id="hoge2Label" for="hoge2">ランキング</label>
+                </div>
+                <div id="left-container">
+                    <p>
+                        <div class="inquiry">                    
+                            <div id="article">
+                                <table>
+                                    <tr>
+                                        <td><img src="img/icon_1.png"></td>
+                                        <th>おもしろい</th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" id="content">ゲームとしての操作はとてもシンプルで分かりやすく、誰でも気軽にプレイできるのが良かったです。地震の場面でどう行動するかを選ぶ形式になっていて、遊んでいるうちに自然と知識が身につきました。</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/icon_2.png"></td>
+                                        <th>またやりたい</th>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <div id="right-container">
+                    <p>1位　nekoneko</p>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="double_line">
+                    <h2 id="contact">よくある質問</h2>
+                </div>
+                <div class="contact">
+                <table>
+                    <tr>
+                        <th>Q.難しいです</th>
+                    </tr>
+                    <tr>
+                        <td>やってくうちに慣れていきます！毎日プレイすることで、脳の回転が速くなり、防災意識も高まるので続けていきましょう</td>
+                    </tr>
+                    <tr>
+                        <th>Q.操作方法がよくわからない</th>
+                    </tr>
+                    <tr>
+                        <td>ゲームをスタートすると操作方法の説明画面が出てきます</td>
+                    </tr>
+                    <tr>
+                        <th>Q.ゲームの始め方がわからない</th>
+                    </tr>
+                    <tr>
+                        <td>すぐ下にあるボタンをクリックすればゲームを始めることができます</td>
+                    </tr>
+                </table>
+                </div>
+                <div class="contents">
+                    <div id="catch">
+                        <p>あなたの防災・ゲーム力は<br>まだまだ上がる！！</p>
+                        <a href="https://scratch.mit.edu/projects/1211072886/"><img src="img/button3.jpg" alt="プレイする"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="contents">
+                <a href="#" id="page-top">TOP</a>
+                <ul>
+                    <a href="#summary">
+                        <div class="foot_dec">
+                            <li>概要</li>
+                        </div>
+                    </a>
+                    <a href="#game">
+                        <div class="foot_dec">
+                            <li>ゲーム一覧</li>
+                        </div>
+                    </a>
+                    <a href="#inquiry">
+                        <div class="foot_dec">
+                            <li>レビュー</li>
+                        </div>
+                    </a>
+                    <a href="#contact">
+                        <div class="foot_dec">
+                            <li>よくある質問（FAQ）</li>
+                        </div>
+                    </a>
+                    <a href="#catch">
+                        <div class="foot_dec">
+                            <li>ゲームスタート</li>
+                        </div>
+                    </a>
+                </ul>
+            </div>
+        </footer>
+        <div id="copy">
+            <div id="logo"><a href="#"><img src="img/logo.png"></a></div>
+            <p>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </p>
+            <p>プライバシーポリシー　お問い合わせ</p>
+            <p>&copy;2025 WEBSEMINAR</p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
